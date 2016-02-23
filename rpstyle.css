@@ -25,6 +25,10 @@ body{
     margin: 0 auto;
 }
 
+.jumbotron .container{
+	padding-top:50px;
+}
+
 .upper-header .phone-number {
     margin: 0;
     font-size: 0.6875em;
