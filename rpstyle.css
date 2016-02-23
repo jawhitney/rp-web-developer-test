@@ -1,0 +1,353 @@
+body{
+  font-family:'Lato',sans-serif;
+}
+.navbar-default {
+    background-color: #fff;
+}
+
+.upper-header {
+    /*position: fixed;*/
+    z-index: 10;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 1.5em;
+    padding: 0.125em 0;
+    line-height: 1em;
+    color: #fff;
+    background: #CB333B;
+}
+
+.container, .jumbotron .container {
+    width: 94%;
+    max-width: 63.75em;
+    margin: 0 auto;
+}
+
+.jumbotron .container{
+	padding-top:50px;
+}
+
+.upper-header .phone-number {
+    margin: 0;
+    font-size: 0.6875em;
+    float: left;
+}
+
+.upper-header .website {
+    text-align: right;
+    font-size: 0.6875em;
+
+}
+
+.nav .dropdown a{
+  font-weight: bold;
+  color: #95989B;
+}
+
+
+
+.upper-header .website a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.lower-header{
+  z-index: 5;
+  top: 1.5em;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 4.5em;
+  background: #fff;
+   margin-top: 15px;
+}
+
+.navbar-btn.contact{
+  font-weight:bold;
+  color:#CB333B;
+  border:2px solid #CB333B;
+}
+
+.rp-logo
+{
+  float: left;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.jumbotron
+{
+  min-height:500px;
+  text-align: center;
+  padding: 8em 0 4.5em;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  background: url('https://abstracthdwallpapers.files.wordpress.com/2012/07/jelly-bean-android-nexus_7-wallpapers-1920x10801.jpg') no-repeat center fixed;
+  background-size: cover;
+}
+
+.jumbotron h1{
+font-weight:bold;
+color:#fff;
+}
+
+.jumbotron .modal-dialog
+{
+    margin: 120px auto;
+}
+
+
+.jumbotron p
+{
+    /*font-family: "adelle",sans-serif;*/
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: bold;
+    color: #fff;
+    width: 100%;
+
+
+}
+
+.jumbotron .btn{
+  color:#fff;
+  border:2px solid #fff;
+  font-weight: bold;
+  background-color: rgba(0,0,0,0);
+  padding-left: 3em;
+  padding-right: 3em;
+  font-size: 16px;
+}
+
+
+
+.opportunities {
+    position: relative;
+    z-index: 2;
+    padding: 9.5% 0 3em;
+    text-align: center;
+    background: #f5f6f7 url("images/v-neck.png") no-repeat center top;
+    background-size: contain;
+}
+
+.opportunities i{
+  color:#0ea4a7;
+}
+
+.opp-title{
+  font-weight: bold;
+  font-family: 'Bitter';
+  color:#0ea4a7;
+  font-size: 48px;
+  margin-bottom:50px;
+  padding-bottom:15px;
+
+}
+
+.opp-text{
+  color:#95989B;
+  font-family: 'Bitter';
+  margin-bottom:40px;
+}
+
+.opportunities .btn{
+  color:#0ea4a7;
+  border:2px solid #0ea4a7;
+  background-color: rgba(0,0,0,0);
+  padding-left: 4em;
+  padding-right: 4em;
+  font-weight: bold;
+}
+
+.questions {
+    position: relative;
+    z-index: 2;
+    padding: 4.5% 0 3em;
+    text-align: center;
+}
+
+.questions h1{
+  font-weight: bold;
+  font-family: 'Bitter';
+  color:#0ea4a7;
+  font-size: 48px;
+  margin-bottom:50px;
+}
+.questions .btn{
+  color:#0ea4a7;
+  border:2px solid #0ea4a7;
+  background-color: rgba(0,0,0,0);
+  padding-left: 4em;
+  padding-right: 4em;
+  font-weight: bold;
+}
+
+.awards
+{
+  text-align: center;
+  padding: 9.5% 0 3em;
+  font-weight: bold;
+  font-family: 'Bitter';
+}
+
+.awards .panel-body{
+  font-weight: normal;
+}
+
+
+
+.daniel {
+    position: relative;
+    z-index: 2;
+    padding: 9.5% 0 3em;
+    text-align: center;
+}
+
+.daniel-title h1
+{
+  color:#0ea4a7;
+  font-size:48px;
+  font-weight: 700;
+  font-family: 'Bitter';
+
+}
+
+.daniel-body
+{
+  color:#95989B;
+  font-size:24px;
+  margin-bottom:30px;
+  font-family: 'Bitter';
+}
+
+.daniel .btn{
+  color:#fff;
+  background-color: #0ea4a7;
+  padding-left: 4em;
+  padding-right: 4em;
+  font-weight: bold;
+}
+
+.daniel .daniel-image
+{
+  float:left;
+}
+
+.dropdown:hover .dropdown-menu{
+  display:block;
+}
+
+.panel-rp
+{
+    border:none;
+    box-shadow:none;
+}
+
+.panel-rp .panel-heading{
+  background-color:#fff;
+}
+
+.panel-rp .panel-footer{
+  background-color:#fff;
+  border:none;
+}
+
+.panel-rp a{
+  font-weight:bold;
+  color:#0ea4a7;
+}
+
+.panel-rp .panel-title i{
+  color:#0ea4a7;
+}
+
+.panel-rp .panel-title{
+  font-weight:bold;
+  color:#4b4c4e;
+  font-size: 28px;
+  font-family: 'Bitter';
+}
+
+.panel-rp .panel-body{
+  padding-top:0;
+}
+
+.awards{
+  border-bottom:2px solid #95989B;
+}
+
+.awards .panel-body{
+  color:#95989B;
+  font-size: 24px;
+  padding-top: 20px;
+}
+
+.awards-title{
+  font-weight: bold;
+  font-size: 48px;
+  margin-bottom:50px;
+  padding-bottom:15px;
+
+}
+
+
+
+.triangles{
+  height:2.9375em;
+  background: url("images/triangles-gray.svg") repeat center center;
+
+}
+
+.upper-footer{
+  background-color:#4B4C4E;
+  padding: 1.875em 0;
+  color: #a8a8a8;
+}
+
+.upper-footer li{
+  list-style:none;
+}
+
+.upper-footer a{
+  color:#a8a8a8;
+  text-decoration: none;
+}
+
+.social-media i{
+  padding-left:.2em;
+  padding-right:.2em;
+}
+
+.lower-logo{
+  float:left;
+}
+
+.lower-contact{
+  float:
+}
+
+.lower-footer{
+  width: 100%;
+  height: 1.5em;
+  padding: 0.125em 0;
+  line-height: 1em;
+  color: #fff;
+  background: #CB333B;
+}
+
+.copyright{
+  float:left;
+}
+
+.privacy{
+  text-align:right;
+}
+.privacy a{
+  text-decoration: underline;;
+  color:#fff;
+}
